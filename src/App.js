@@ -1,12 +1,12 @@
 import "./App.css";
-import { Popup } from "./Popup";
-import { Main } from "./Main";
+import { Neon } from "./Neon";
+import { Modal } from "./Modal";
 
 function App() {
   return (
     <div className="App">
-      <Popup />
-      <Main />
+      <Neon />
+      <Modal />
     </div>
   );
 }
