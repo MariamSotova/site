@@ -13,8 +13,11 @@ export function Modal() {
 
   return (
     <div className="modal-bg">
+      <div className="wrp-text-about">
+        <p className="header-text-about">Let's talk about your projects</p>
+      </div>
       <button onClick={toggleModal} className="btn-modal">
-        about
+        message me!
       </button>
       {modal && (
         <div className="modal">
@@ -24,19 +27,8 @@ export function Modal() {
                 close
               </button>
               <div className="text-wrp">
-                <h3 className="header-about">about me</h3>
-                <p className="text-about">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                  tristique suscipit vehicula. Phasellus eget dolor fringilla,
-                  porta nisi Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit. Nulla tristique suscipit vehicula. Phasellus eget dolor
-                  fringilla, porta ni Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Nulla tristique suscipit vehicula. Phasellus
-                  eget dolor fringilla, porta ni Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit. Nulla tristique suscipit
-                  vehicula. Phasellus eget dolor fringilla, porta ni non,
-                  fermentum libero.
-                </p>
+                <h3 className="header-about">contacts</h3>
+                <form>form</form>
               </div>
             </div>
           </div>
